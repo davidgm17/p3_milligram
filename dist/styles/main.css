@@ -27,3 +27,45 @@ a.selected {
   margin: 0 auto;
   background: black;
 }
+.border-wt {
+  border: white solid 1px;
+}
+.p-0 {
+  padding: 0px !important;
+}
+.silla {
+  background: url('../images/chair.jpg') no-repeat;
+  height: 407px;
+}
+.cl-black {
+  color: black;
+}
+.d-flex {
+  display: flex !important;
+}
+.info {
+  width: 150px;
+  text-align: center;
+}
+.tx-bold {
+  font-weight: bold;
+}
+.row-justify-end {
+  justify-content: flex-end;
+}
+.bg-yw-bd {
+  background-position: 0 0;
+  color: #966a01;
+  height: 34px;
+  line-height: 34px;
+  width: 109px;
+  background: url('../images/buttons.png') no-repeat;
+  cursor: pointer;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.silla-coment {
+  background: url('../images/bg-pattern.jpg') no-repeat left top;
+  height: 407px;
+}

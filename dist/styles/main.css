@@ -33,6 +33,9 @@ a.selected {
 .p-0 {
   padding: 0px !important;
 }
+.px-40 {
+  padding: 0px 40px !important;
+}
 .silla {
   background: url('../images/chair.jpg') no-repeat;
   height: 407px;
@@ -49,6 +52,9 @@ a.selected {
 }
 .tx-bold {
   font-weight: bold;
+}
+.tx-center {
+  text-align: center;
 }
 .row-justify-end {
   justify-content: flex-end;

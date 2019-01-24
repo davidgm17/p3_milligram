@@ -1,11 +1,6 @@
 body {
   background: url('../images/bg-body.png') repeat-y center top;
 }
-.container {
-  max-width: 80rem;
-  padding-bottom: 7.5rem;
-  padding-top: 7.5rem;
-}
 
 .header {
   background-color: #241b18;
@@ -25,4 +20,10 @@ a.selected {
 }
 .column.tx-center {
   text-align: center;
+}
+
+.container.contents {
+  width: 940px;
+  margin: 0 auto;
+  background: black;
 }

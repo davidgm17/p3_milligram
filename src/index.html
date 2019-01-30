@@ -8,14 +8,14 @@
       name="description"
       content="Creación de una pagina mediante un framework."
     />
-    <title>Milligram | Practica-3</title>
+    <title>Practica-3 | Milligram</title>
     <link rel="icon" href="https://milligram.github.io/images/icon.png" />
     <link
       rel="stylesheet"
       href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
     />
 
-    <link
+    <!-- <link
       rel="stylesheet"
       href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css"
     />
@@ -23,7 +23,18 @@
     <link
       rel="stylesheet"
       href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="lib/normalize.css/normalize.css"
+      type="text/css"
     />
+    <link
+      rel="stylesheet"
+      href="lib/milligram/dist/milligram.min.css"
+      type="text/css"
+    />
+
     <link rel="stylesheet" href="styles/main.css" type="text/css" />
   </head>
   <body>
@@ -81,14 +92,94 @@
           </div>
         </div>
       </div>
-      <div class="row row-center">
-        <div class="column ">1-3</div>
-        <div class="column ">2-3</div>
-        <div class="column ">3-3</div>
+      <div class="row row-center bg-brown">
+        <div class="column column-33 p-0 h-345">
+          <div>
+            <a href="#"
+              ><img
+                class="wo-line"
+                src="images/living-room.jpg"
+                alt="living-room"
+            /></a>
+          </div>
+
+          <div class="detalles">
+            <h4 class="selected">Living Room</h4>
+            <p class="parrafo">
+              This website template has been designed by
+              <a href="#">Free Website Templates</a> for you, for free. You can
+              replace all this text with your own text.
+            </p>
+          </div>
+        </div>
+        <div class="column column-33 p-0 h-345 bg-dark">
+          <div>
+            <a href="#"
+              ><img class="wo-line" src="images/bedroom.jpg" alt="Img"
+            /></a>
+          </div>
+          <div class="detalles">
+            <h4 class="selected">Bedroom</h4>
+            <p class="parrafo">
+              You can remove any link to our website from this website template,
+              you're free to use this website template without linking back to
+              us.
+            </p>
+          </div>
+        </div>
+        <div class="column column-33 p-0 h-345">
+          <div>
+            <a href="#"
+              ><img class="wo-line" src="images/kitchen.jpg" alt="Img"
+            /></a>
+          </div>
+          <div class="detalles">
+            <h4 class="selected">Kitchen</h4>
+            <p class="parrafo">
+              If you're having problems editing this website template, then
+              don't hesitate to ask for help on the <a href="#">Forum</a>.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="row row-center">
-        <div class="column column-33">1-2</div>
-        <div class="column column-66">2-2</div>
+      <div class="row row-center bg-white">
+        <div class="column column-33 contacto">
+          <p>
+            For Order and Inquiries Please Call: <br />
+            <b>760-962-9541</b> Or you can visit us at:<br />
+            <b>4885 Wilson Street Victorville, CA 92392</b>
+          </p>
+        </div>
+        <div class="column column-66 blog">
+          <h4>From the Blog</h4>
+          <div class="row row-center  ">
+
+            <div class="column row d-flex blog">
+              <div class="column  column-50  tx-rigth bg-blog">
+                <span>April 16, 2023</span>
+                <p>CC's Carving</p>
+                <a href="#" class="more">Read More</a>
+              </div>
+              <div class="column column-50 column-center p-0">
+                <img src="images/carving-small.png" alt="Img" />
+              </div>
+            </div>
+
+
+            <div class="column row d-flex blog">
+              <div class="column  column-50  tx-rigth bg-blog">
+                  <span>April 15, 2023</span>
+                  <p>5 Star Resorts</p>
+                  <a href="#" class="more">Read More</a>
+              </div>
+              <div class="column column-50 column-center p-0">
+                  <img src="images/resort-small.png" alt="Img" />
+               </div>
+            </div>
+
+
+          </div>
+        </div>
       </div>
     </div>
   </body>

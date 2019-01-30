@@ -12,10 +12,13 @@ body {
   max-width: 940px;
   margin: 0 auto;
 }
+.h-345 {
+  height: 345px;
+}
 a {
   color: white;
 }
-a.selected {
+.selected {
   color: yellow;
 }
 .column.tx-center {
@@ -56,6 +59,9 @@ a.selected {
 .tx-center {
   text-align: center;
 }
+.tx-rigth {
+  text-align: right;
+}
 .row-justify-end {
   justify-content: flex-end;
 }
@@ -74,4 +80,49 @@ a.selected {
 .silla-coment {
   background: url('../images/bg-pattern.jpg') no-repeat left top;
   height: 407px;
+}
+.detalles {
+  background: url(../images/separator-light.png) repeat-x left top;
+  padding: 16px 20px 0;
+}
+.detalles .parrafo {
+  color: #fff;
+  font-size: 13px;
+  line-height: 18px;
+}
+.bg-brown {
+  background-color: #4b3a33;
+}
+.bg-dark {
+  background-color: #241b18;
+}
+.bg-white {
+  background-color: white;
+}
+.wo-line {
+  line-height: 0px !important;
+}
+.contacto {
+  background: url(../images/separator-light-vertical.png) repeat-y right top;
+  height: 225px;
+  padding: 20px 40px 0 20px !important;
+}
+.contacto b {
+  color: #241b18;
+  display: block;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 30px;
+  padding: 0 0 24px;
+}
+.bg-blog {
+  background-color: #7b7b7b;
+  padding-top: 7%;
+}
+.blog {
+  padding: 0 20px 0 20px !important;
+  color: #4b3a33;
+}
+.blog a {
+  color: #4b3a33;
 }
